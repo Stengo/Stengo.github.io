@@ -1,0 +1,78 @@
+* {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #293030;
+  margin: 0px;
+}
+
+body {
+  background-color: #293030;
+}
+
+a {
+  text-decoration: none;
+}
+
+#name {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+#study {
+  margin-bottom: 8px;
+}
+
+#work {
+  margin-bottom: 24px;
+}
+
+#email {
+}
+
+#rwth-front {
+  color: #05509A;
+}
+
+#rwth-back {
+  color: #84BDEA;
+}
+
+#trivago-front {
+  color: #007faf;
+}
+
+#trivago-middle {
+  color: #f48f00;
+}
+
+#trivago-back {
+  color: #c94a38;
+}
+
+#card-outer {
+  display: table;
+  margin: 200px auto;
+
+  border-radius: 16px;
+
+  background-color: #FCFFFF;
+}
+
+#card-inner {
+  margin: 40px;
+}
+
+@media (max-width: 460px) {
+  #card-outer {
+    margin: 32px 0px;
+    border-style: none;
+  }
+
+  #card-inner {
+    margin: 24px;
+  }
+
+  body {
+    background-color: #FCFFFF;
+  }
+}

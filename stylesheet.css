@@ -23,10 +23,11 @@ a {
 }
 
 #work {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 #email {
+  margin-top: 24px;
 }
 
 #rwth-front {

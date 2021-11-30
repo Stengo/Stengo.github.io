@@ -26,8 +26,11 @@ a {
   margin-bottom: 8px;
 }
 
+#open-source {
+  margin-bottom: 24px;
+}
+
 #email {
-  margin-top: 24px;
 }
 
 #rwth-front {
@@ -48,6 +51,14 @@ a {
 
 #trivago-back {
   color: #c94a38;
+}
+
+#os-front {
+  text-decoration: underline;
+}
+
+#os-back {
+  text-decoration: underline;
 }
 
 #card-outer {

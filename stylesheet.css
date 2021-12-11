@@ -9,10 +9,6 @@ body {
   background-color: #293030;
 }
 
-a {
-  text-decoration: none;
-}
-
 #name {
   font-size: 40px;
   margin-bottom: 32px;
@@ -58,11 +54,9 @@ a {
 }
 
 #os-front {
-  text-decoration: underline;
 }
 
 #os-back {
-  text-decoration: underline;
 }
 
 #card-outer {

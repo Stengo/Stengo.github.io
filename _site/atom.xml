@@ -4,7 +4,7 @@
  <title>Bastian Andelefski</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-12-03T18:24:28+01:00</updated>
+ <updated>2023-12-03T20:45:02+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bastian Andelefski</name>
@@ -26,7 +26,7 @@ I was never able to find a weather app I really loved. My main issue with almost
 
 &lt;p&gt;It ended up getting some great reception on &lt;a href=&quot;https://www.reddit.com/r/apple/comments/xtktxd/i_made_an_app_that_visualizes_weather_instead_of/&quot;&gt;Reddit&lt;/a&gt;, followed by coverage from &lt;a href=&quot;https://9to5mac.com/2022/10/07/overlook-weather-beautiful-ui-and-free/&quot;&gt;9to5Mac&lt;/a&gt; and a few other news sites. That attention momentarily catapulted it up the app store ranking, peaking at #2 in the US and #1 in Germany.&lt;/p&gt;
 
-&lt;p&gt;Despite putting an immense amount of effort into making the main visualization as beautiful as possible, my favorite and most-used part of the app was added at the very end of development and took less than a day. The memorable, glanceable design of the graphs allowed me to create a highly abstracted lock-screen widget that arguably surpassed the core app in achieving my original goal.&lt;/p&gt;
+&lt;p&gt;Despite putting an immense amount of effort into making the main visualization as beautiful as possible, my favorite and most-used part of the app was added at the very end of development and took less than a day. The memorable, glanceable design of the graphs allowed me to create a highly abstracted lock screen widget that arguably surpassed the core app in achieving my original goal.&lt;/p&gt;
 </content>
  </entry>
  

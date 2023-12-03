@@ -4,7 +4,7 @@
  <title>Bastian Andelefski</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-12-03T12:16:59+01:00</updated>
+ <updated>2023-12-03T12:27:57+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Bastian Andelefski</name>
@@ -51,7 +51,7 @@ My second foray into creating open source projects was brought on by the sudden 
    <link href="http://localhost:4000/2021/12/13/smart-home-remote/"/>
    <updated>2021-12-13T00:00:00+01:00</updated>
    <id>http://localhost:4000/2021/12/13/smart-home-remote</id>
-   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;250pt&quot; src=&quot;http://www.youtube.com/embed/R8AFXMdouY8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;100%&quot; height=&quot;250pt&quot; src=&quot;https://www.youtube.com/embed/R8AFXMdouY8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;After seeing the Apple AirTag’s precise location features, enabled by ultra-wideband, I thought back to
 &lt;a href=&quot;https://www.theverge.com/circuitbreaker/2016/11/10/13583002/sevenhugs-smart-remote-control-price&quot;&gt;Sevenhugs’ beautiful, but ultimately doomed, smart home remote&lt;/a&gt;
 that adapted its interface to whichever device it was pointed at.&lt;/p&gt;

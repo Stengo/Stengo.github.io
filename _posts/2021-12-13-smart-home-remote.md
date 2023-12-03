@@ -3,7 +3,7 @@ layout: post
 title: Smart Home Remote
 site: https://www.youtube.com/watch?v=R8AFXMdouY8
 ---
-<iframe width="100%" height="250pt" src="http://www.youtube.com/embed/R8AFXMdouY8" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="250pt" src="https://www.youtube.com/embed/R8AFXMdouY8" frameborder="0" allowfullscreen></iframe>
 After seeing the Apple AirTag's precise location features, enabled by ultra-wideband, I thought back to
 [Sevenhugs' beautiful, but ultimately doomed, smart home remote](https://www.theverge.com/circuitbreaker/2016/11/10/13583002/sevenhugs-smart-remote-control-price)
 that adapted its interface to whichever device it was pointed at.

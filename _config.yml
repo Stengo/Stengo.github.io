@@ -1,0 +1,23 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Bastian Andelefski
+url:                 http://andelefski.com
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Bastian Andelefski
+  url:               http://andelefski.com
+  email:             bastian@andelefski.com
+
+plugins:
+  - jekyll-target-blank

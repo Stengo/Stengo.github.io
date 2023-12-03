@@ -1,34 +1,35 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Bastian Andelefski</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div id="card-outer">
-      <div id="card-inner">
-        <p id="name">Bastian Andelefski</p>
-        <p id="study">
-          <a href="https://www.researchgate.net/profile/Stefan_Schiffer/publication/314003629_Assisted_Feature_Engineering_and_Feature_Learning_to_Build_Knowledge-Based_Agents_for_Arcade_Games/links/58b154cea6fdcc6f03f68c2e/Assisted-Feature-Engineering-and-Feature-Learning-to-Build-Knowledge-Based-Agents-for-Arcade-Games.pdf" target="_blank">
-            computer science at <span id="rwth-front">RWTH</span><span id="rwth-back">AACHEN</span>
-          </a>
-          
-        </p>
-        <p id="work">
-          <a href="https://apps.apple.com/us/app/trivago-compare-hotel-prices/id376888389" target="_blank">
-            iOS development at <span id="trivago-front">tri</span><span id="trivago-middle">va</span><span id="trivago-back">go</span>
-          </a>
-        </p>
-        <p id="remote">
-          <a href="https://9to5mac.com/2021/12/13/homekit-u1-precision-iphone-control/" target="_blank">a pretty nifty smart home remote app</a>
-        </p>
-        <p id="open-source">
-            and some <a target="_blank" id="os-front" href="https://github.com/git-up/GitUp/pull/748">open</a> <a target="_blank" id="os-middle" href="https://github.com/Stengo/DeskPad">source</a> <a target="_blank" id="os-back" href="https://github.com/Stengo/Exposition">contributions</a>
-        </p>
-        <a id="email" href="mailto:&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#097;&#110;&#100;&#101;&#108;&#101;&#102;&#115;&#107;&#105;&#046;&#099;&#111;&#109;">&#098;&#097;&#115;&#116;&#105;&#097;&#110;&#064;&#097;&#110;&#100;&#101;&#108;&#101;&#102;&#115;&#107;&#105;&#046;&#099;&#111;&#109;</a>
-      </div>
-    </div>
-  </body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+
+
